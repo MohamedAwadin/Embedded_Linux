@@ -108,6 +108,15 @@ The -L option tells the find command to follow symbolic links. Without this opti
 
 
 
+## REFERANCES :
+- https://www.ibm.com/docs/en/zos/2.5.0?topic=links-creating-symbolic-link
+
+- https://www.redhat.com/en/blog/soft-links-linux
+
+- 
+
+
+
 
 
 
