@@ -93,3 +93,40 @@ sudo find / -name .profile
 <p align='center'>
 <img width="60%" src="./images/q6_p2.png"/>
 </p> 
+
+## Q7. Create a symbolic link of /etc/passwd in /boot.
+
+<p align='center'>
+<img width="60%" src="./images/q7_p1.png"/>
+</p> 
+
+## Q8. Create a hard link of /etc/passwd in /boot. Could you? Why?
+
+<p align='center'>
+<img width="60%" src="./images/q7.png"/>
+</p> 
+
+> It work perfect, Why?
+- Hard links must be created within the same file system, 
+in my case the /etc and /boot are on the same partition.
+
+
+## Q9. Echo \ it will jump to the next line, and will print >Notice the prompt ”>” what is that? and how can you change it from “>” to “:”.
+
+<p align='center'>
+<img width="60%" src="./images/q9_p1.png"/>
+</p> 
+
+<p align='center'>
+<img width="60%" src="./images/q9_p2.png"/>
+</p> 
+
+<p align='center'>
+<img width="60%" src="./images/q9_p3.png"/>
+</p> 
+
+> NOTE: 
+- The primary prompt (PS1) is what you see for a new command line (default is $ or # for root).
+- The secondary prompt (PS2) appears when the shell expects more input to complete a command.
+
+
