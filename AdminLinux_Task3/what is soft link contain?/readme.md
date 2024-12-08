@@ -1,14 +1,12 @@
-# SoftLink(Symbolic link)
+# SoftLink(Symbolic link) :
 
 ## Important Defination: 
-- A soft link (symbolic link) does not directly store the inode of the original file. Instead, it saves a ` reference to the path of the target file.` The information about this reference is stored in `the filesystem's ``metadata`` for the symbolic link.`
+- A soft link (symbolic link) does not directly store the inode of the original file. Instead, it saves a ` reference to the path of the target file.` The information about this reference is stored in `the filesystem's `metadata` for the symbolic link.`
 
 - A symbolic link is another file that contains the path name for the original file; in essence, a reference to the file. A symbolic link can refer to a path name for a file that does not exist.
 
 ## Eaxmple :
-
 > Command :
-
 ```bash
 ln -s /u/smitha/proja /u/benson/proja
 ```
@@ -112,8 +110,6 @@ The -L option tells the find command to follow symbolic links. Without this opti
 - https://www.ibm.com/docs/en/zos/2.5.0?topic=links-creating-symbolic-link
 
 - https://www.redhat.com/en/blog/soft-links-linux
-
-- 
 
 
 
