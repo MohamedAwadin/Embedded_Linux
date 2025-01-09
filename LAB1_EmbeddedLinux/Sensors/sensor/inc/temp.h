@@ -2,7 +2,7 @@
 #define TEMP_H
 
 
-float read_temp_from_log(char *filename);
+float read_temp_from_log(const char *filename);
 float temp_fahrenheit_to_celsius(float temp);
 
 

@@ -4,17 +4,20 @@
 #include "../inc/pressure.h"
 
 
-float read_pressure_from_log(char *filename)
+float read_pressure_from_log(const char *filename)
 {
+    if (filename == NULL) {
+        perror("Error opening file");
+        exit(EXIT_FAILURE);
+    }
+
+    
     float pressure = 0.0 ;
     char line[256];
     
     FILE *file = fopen(filename, "r");
     
-    if (file == NULL) {
-        perror("Error opening file");
-        exit(EXIT_FAILURE);
-    }
+    
 
     if (fgets(line, sizeof(line), file) != NULL)
     {
