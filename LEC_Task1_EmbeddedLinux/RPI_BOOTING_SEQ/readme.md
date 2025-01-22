@@ -41,7 +41,7 @@ To boot the Raspberry Pi 3B+, you need the following files in the boot partition
 - config.txt: Configuration file for hardware settings [The official page to configure config.txt file can be found here.](https://www.raspberrypi.com/documentation/computers/config_txt.html).
 
 - cmdline.txt: Kernel command-line parameters.
-[The official page to cmdline.txt file can be found here.](https://www.raspberrypi.com/documentation/computers/config_txt.html).
+[The official page to cmdline.txt file can be found here.](https://www.raspberrypi.com/documentation/computers/configuration.html#kernel-command-line-cmdline-txt).
 
 2. Device Tree Blob (DTB):
 
@@ -147,7 +147,7 @@ Once the SD card partitioning is done, copy above mentioned files to SD card.
 ```bash 
 cp -r ~/rpi3/sdCardFiles/. <PATH_TO_BOOT_PART_MOUNT_POINT> # Use lsblk command to find the mount point
 ```
-Ex: cp -r ~/rpi3/sdCardFiles/. /media/nayab/boot/
+Ex: cp -r ~/rpi3/sdCardFiles/. /media/awadin/boot/
 
 ## Power up the board.
 
