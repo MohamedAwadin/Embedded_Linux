@@ -127,10 +127,7 @@ export PATH=~/x-tools/arm-awadin-linux-musleabihf/bin:$PATH
 
 You can now use the cross-compiler (`arm-awadin-linux-musleabihf-gcc`) to build software for the ARM Cortex-A9 target.
 
-## Troubleshooting
 
-- **Build Failures**: If the build fails, check the logs in the `build.log` file located in the `crosstool-ng` directory. Ensure all dependencies are installed and try again.
-- **Configuration Issues**: If you encounter issues with the configuration, use `./ct-ng menuconfig` to review and adjust settings.
 
 ## References
 
