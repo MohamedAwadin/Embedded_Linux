@@ -189,5 +189,3 @@ SECTIONS
 </p> 
 
 ---
-
-Let me know if you need further assistance!
