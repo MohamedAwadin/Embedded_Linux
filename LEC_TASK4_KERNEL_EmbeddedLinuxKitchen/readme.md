@@ -12,7 +12,7 @@ Before starting, ensure you have the following:
   sudo apt install qemu-system-arm
   ```
 - Cross-compilation toolchain .
-  - Follow this [Link](https://github.com/MohamedAwadin/Embedded_Linux/tree/main/LEC_Crosstoolchain_EmbeddedLinuxKitchen) to Generate your one Cross-compilation toolchain.
+  - Follow this [Link](https://github.com/MohamedAwadin/Embedded_Linux/tree/main/LEC_Crosstoolchain_EmbeddedLinuxKitchen) to Generate your own Cross-compilation toolchain.
 
 
 ## Steps
