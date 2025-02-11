@@ -1,8 +1,6 @@
 # Running BusyBox on QEMU Emulator for vexpress-A9 Board
 
 
-
-
 <p align='center'>
       <img width="95%" src="./images/bootflow_prob_solve.png"/>
       </p> 
@@ -19,6 +17,33 @@
       <img width="95%" src="./images/Screenshot from 2025-01-31 02-23-53.png"/>
       </p>
 
+
+<p align='center'>
+      <img width="95%" src="./images/BB_SDCARD_USR.png"/>
+      </p> 
+
+<p align='center'>
+      <img width="95%" src="./images/BB_SDCARD_SBIN.png"/>
+      </p> 
+
+<p align='center'>
+      <img width="95%" src="./images/BB_SDCARD_BIN.png"/>
+      </p> 
+
+<p align='center'>
+      <img width="95%" src="./images/BB_INIT.png"/>
+      </p>
+
+
+
+<p align='center'>
+      <img width="95%" src="./images/BB_CD.png"/>
+      </p>
+
+
+<p align='center'>
+      <img width="95%" src="./images/init_script.png"/>
+      </p>
 
 ## Referances :
 
