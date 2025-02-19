@@ -1,0 +1,5 @@
+/home/awadin/ITI_9Monthes/Embedded_Linux_Course/Embedded_Linux/AdminLinux_Task4/build/CMakeFiles/rebuild_cache.dir
+/home/awadin/ITI_9Monthes/Embedded_Linux_Course/Embedded_Linux/AdminLinux_Task4/build/CMakeFiles/edit_cache.dir
+/home/awadin/ITI_9Monthes/Embedded_Linux_Course/Embedded_Linux/AdminLinux_Task4/build/CMakeFiles/destroy_sharedmem.dir
+/home/awadin/ITI_9Monthes/Embedded_Linux_Course/Embedded_Linux/AdminLinux_Task4/build/CMakeFiles/read_sharedmem.dir
+/home/awadin/ITI_9Monthes/Embedded_Linux_Course/Embedded_Linux/AdminLinux_Task4/build/CMakeFiles/write_sharedmem.dir

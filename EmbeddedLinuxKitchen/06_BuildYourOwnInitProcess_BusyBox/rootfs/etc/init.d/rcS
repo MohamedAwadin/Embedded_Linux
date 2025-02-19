@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mount -t devtmpfs null /dev 
+mount -t sysfs null /sys
+mount -t proc null /proc
+mount -t vfat /dev/sda1 /boot/

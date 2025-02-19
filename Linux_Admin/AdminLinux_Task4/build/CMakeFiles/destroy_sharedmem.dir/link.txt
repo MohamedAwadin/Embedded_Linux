@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/destroy_sharedmem.dir/destroy_sharedmem.c.o CMakeFiles/destroy_sharedmem.dir/sharedmem.c.o  -o destroy_sharedmem 
