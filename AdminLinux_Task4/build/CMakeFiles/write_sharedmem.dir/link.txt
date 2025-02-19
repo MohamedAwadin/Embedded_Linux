@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/write_sharedmem.dir/write_sharedmem.c.o CMakeFiles/write_sharedmem.dir/sharedmem.c.o  -o write_sharedmem 

@@ -1,5 +1,0 @@
-cat << EOF >> config.txt 
-arm_64bit=1
-kernal=u-boot.bin 
-enable_uart=1
-EOF
