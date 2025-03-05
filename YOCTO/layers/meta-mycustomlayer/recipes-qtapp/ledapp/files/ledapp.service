@@ -1,0 +1,12 @@
+[Unit]
+Description=Qt6 LED Control App
+After=network.target weston.service
+Requires=weston.service
+
+[Service]
+ExecStart=/usr/bin/ledapp
+Restart=always
+Environment="QT_QPA_PLATFORM=wayland"
+
+[Install]
+WantedBy=multi-user.target
